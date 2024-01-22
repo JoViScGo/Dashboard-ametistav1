@@ -14,10 +14,6 @@
 # da['Coluna']
 import pandas as pd
 import streamlit as st
-import numpy as np
-import datetime
-import matplotlib as mp
-import plotly.express as px
 
 df0 = pd.read_csv('DadosSimples.csv' , header = None)
 df0.columns=['Nome da Estação' , 'Data' , 'Hora' , 'Tensão da bateria' , 'temperatura interna da pcd' , 
